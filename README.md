@@ -2,7 +2,7 @@
 电子科技大学编译原理实验：设计程序，能够对特定Pascal代码进行语法分析和词法分析。
 
 ## Pascal源程序：
-'''pascal
+```
 begin
   integer k;
   integer function F(n);
@@ -15,7 +15,7 @@ begin
   k:=F(m);
   write(k)
 end
-'''
+```
 
 ## 使用说明
 compiler.py是词法分析器，能够正确进行词法分析。
