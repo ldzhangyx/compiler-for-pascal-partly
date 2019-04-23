@@ -1,5 +1,3 @@
-
-
 def lexical_analysis(source_file, output_file, error_file):
     with open(source_file, 'r') as source:
         lines = source.readlines()
